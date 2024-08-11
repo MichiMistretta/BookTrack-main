@@ -1,0 +1,83 @@
+body {
+    background-color: #f3e8d6;
+    font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.tablink {
+    background-color: #b87a5b;
+    color: white;
+    padding: 14px 50px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 5px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.tablink:hover {
+    background-color: #8c5e4e;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff9f0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.book-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-item {
+    background-color: #fdf7f2; 
+    border: 1px solid #d4c4b1; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    max-width: 600px;
+    transition: transform 0.2s;
+}
+
+.book-item:hover {
+    transform: translateY(-5px); /* hover effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.book-item button {
+    background-color: #d9a76b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.book-item button:hover {
+    background-color: #b87a5b;
+}
+
+.book-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px 0;
+}
